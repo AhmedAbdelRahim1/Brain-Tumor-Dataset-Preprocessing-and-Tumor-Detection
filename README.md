@@ -1,4 +1,4 @@
-# Brain Tumor Image Dataset Preprocessing
+# Brain Tumor Dataset Preprocessing and Tumor Detection
 
 ## Introduction & Data Format
 
