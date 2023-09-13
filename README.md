@@ -3,9 +3,9 @@
 # Introduction & Data Format
 This repository provides a comprehensive guide on preprocessing a dataset containing grayscale images of infected patients' brain X-rays. The preprocessing steps outlined below are essential to ensure the dataset is clean, well-organized, and ready for use in machine-learning tasks related to brain tumor detection.
 
-Data Type: Grayscale images
-Number of Images: 10
-Image Dimensions: 
+Data Type: Grayscale images  
+Number of Images: 10  
+Image Dimensions: 256x256  
 
 # Preprocessing Steps
 
