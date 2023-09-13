@@ -33,7 +33,7 @@ The Tumor Detection component focuses on the precise identification and segmenta
 
 1. **Color Range Extraction:** In the initial step, color ranges corresponding to brain tumors within each medical image are extracted. This process lays the foundation for subsequent tumor segmentation.
 
-2. **Segmentation with OpenCV:** Utilizing the powerful OpenCV library, tumors are segmented from the images. The `.inRange()` function is instrumental in isolating tumor regions.
+2. **Segmentation with OpenCV:** Utilizing the powerful OpenCV library, tumors are segmented from the images. The `.threshold()` function is instrumental in isolating tumor regions.
 
 3. **Tumor Cropping:** Following successful segmentation, individual tumors are cropped from their respective images using image-slicing techniques. This step isolates the tumor regions, which are crucial for further analysis.
 
