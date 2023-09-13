@@ -8,7 +8,7 @@ Data Format: <br />
 - Number of Images: 10 <br />
 - Image Dimensions: 256x256 <br />
 
-# Preprocessing & Storing Methodoloies
+# Preprocessing & Storing Methodologies
 
 Data Cleaning:
 
@@ -36,3 +36,22 @@ The Tumor Detection part focuses on the precise identification and segmentation 
 - Tumor Cropping: Following successful segmentation, individual tumors are cropped from their respective images using image-slicing techniques. This step facilitates the isolation of the tumor regions, which are essential for subsequent analysis.
 
 - Refined Tumor Segmentation: To enhance model accuracy and precision, a specialized algorithm is implemented. This algorithm further refines the tumor segmentation process, ensuring that only the tumor itself is included in the segmented region, without any extraneous pixels. This meticulous refinement is crucial for the reliable detection of brain tumors.
+
+# Project Goals
+
+The Brain Tumor Image Dataset Preprocessing project is guided by the following ambitious goals, which encompass both data preprocessing and tumor detection:
+
+- Precise Tumor Localization: Our primary objective is to achieve accurate localization of brain tumors within medical images. By implementing advanced computer vision techniques, we aim to pinpoint the exact locations of tumors, contributing to improved medical diagnoses.
+
+- High-Quality Segmentation: Ensuring the highest quality in tumor segmentation is a cornerstone of our project. We are committed to delivering clean, tumor-only regions after processing, enabling reliable and precise analysis of brain tumor data.
+
+- Enhanced Model Accuracy: By providing a meticulously preprocessed dataset, we strive to empower machine learning models with the highest levels of accuracy and reliability in detecting brain tumors. Our dataset serves as a solid foundation for training and testing robust detection algorithms.
+
+- Outstanding Data Preprocessing: At the core of our project lies outstanding data preprocessing. We meticulously handle corrupted images, standardize image dimensions, apply data augmentation techniques, and convert images into NumPy arrays. These efforts are aimed at creating a dataset that meets the highest standards of quality, setting the stage for successful machine learning applications.
+
+- Advanced Tumor Detection: Leveraging state-of-the-art techniques and the OpenCV library, our tumor detection methodology is designed to excel in identifying and segmenting brain tumors. From color range extraction to refined segmentation, we prioritize precision and reliability.
+
+Our commitment to these goals underscores our dedication to advancing the field of medical imaging and brain tumor detection through rigorous data preprocessing and segmentation techniques, ultimately benefiting healthcare professionals and patients alike.
+
+# Disclaimer
+Disclaimer: This project is for educational and research purposes only and should not replace professional medical advice or diagnosis. Consult a medical expert for accurate diagnosis and treatment of medical conditions.
